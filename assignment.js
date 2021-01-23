@@ -1,3 +1,8 @@
+// https://github.com/md-ashadusjaman/assignment
+
+
+
+
 // First one
 
 function kilometerToMeter() {
@@ -16,6 +21,8 @@ console.log(result);
 
 
 
+
+
 // Second One budgetCalculator
 
 
@@ -26,12 +33,14 @@ function budgetCalculator(watch, phone, laptop) {
 
 
     return [watchCost + phoneCost + laptopCost];
-
 }
 
 var Items = budgetCalculator(10, 10, 20);
 
 console.log(Items);
+
+
+
 
 
 
@@ -59,13 +68,13 @@ function hotelCost(totalDate) {
         cost = first10 + secondPart + thiredPart;
     }
     return cost;
-
 }
 
 var totalCost = hotelCost();
 
-
 console.log(totalCost);
+
+
 
 
 // And the last one is megaFriend
@@ -79,10 +88,7 @@ function megaFriend(friends) {
         if (tallestFriend.length > myFriends.length) {
             myFriends = tallestFriend;
         }
-
-
     }
-
     return myFriends;
 }
 
